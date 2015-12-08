@@ -1,4 +1,5 @@
-````docker build --no-cache -t multiarch-dockerfile:amd64-methode tmp-amd64
+```console
+docker build --no-cache -t multiarch-dockerfile:amd64-methode tmp-amd64
 Sending build context to Docker daemon  5.12 kB
 Step 1 : FROM multiarch/ubuntu-debootstrap:amd64-wily
  ---> b5f39c8c167e
